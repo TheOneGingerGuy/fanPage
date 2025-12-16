@@ -1,0 +1,63 @@
+@import url(./style.css);
+.Book1{
+    font-size: 8px;
+}
+.Book2{
+    font-size: 8px;
+}
+.Book3{
+    font-size: 8px;
+}
+.Book4{
+    font-size: 8px;
+}
+.Book5{
+    font-size: 8px;
+}
+.bookTitleContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    gap: 10px;
+    flex-direction: row;
+}
+.hungerGames1{
+    height: 175px;
+    width: 125px;
+}
+.hungerGames2{
+    height: 175px;
+    width: 125px;
+}
+.hungerGames3{
+    height: 175px;
+    width: 125px;
+}
+.hungerGames4{
+    height: 175px;
+    width: 125px;
+}
+.hungerGames5{
+    height: 175px;
+    width: 125px;
+}
+.bookTitle{
+    font-size: 13px;
+    text-wrap: wrap;
+    width: 100px;
+}
+.synopsis{
+    height: 250px;
+    width: 150px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--border);
+    background-color: var(--accent4);
+    font-size: 15px;
+    border-radius: 6px;
+}
